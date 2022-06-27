@@ -9,11 +9,23 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var callNowBtn: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        navigationItem.title = "Pjsip Demo"
+
+        setCallNowBtn()
     }
 
+    func setCallNowBtn()  {
+        callNowBtn.layer.cornerRadius = 10
+        callNowBtn.addTarget(self, action: #selector(onCallNowTapped), for: .touchUpInside)
+    }
+    
+    @objc func onCallNowTapped()  {
+       
+      
+    }
 
 }
 
