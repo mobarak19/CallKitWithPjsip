@@ -15,9 +15,6 @@
 		20C6892E2864775200B57794 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20C6892C2864775200B57794 /* Main.storyboard */; };
 		20C689302864775300B57794 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20C6892F2864775300B57794 /* Assets.xcassets */; };
 		20C689332864775300B57794 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20C689312864775300B57794 /* LaunchScreen.storyboard */; };
-		20C6893E2864775300B57794 /* CallKitWithPjsipDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C6893D2864775300B57794 /* CallKitWithPjsipDemoTests.swift */; };
-		20C689482864775300B57794 /* CallKitWithPjsipDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C689472864775300B57794 /* CallKitWithPjsipDemoUITests.swift */; };
-		20C6894A2864775300B57794 /* CallKitWithPjsipDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C689492864775300B57794 /* CallKitWithPjsipDemoUITestsLaunchTests.swift */; };
 		20E9C9512869614500A620C6 /* libpjsua-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20E9C9452869614500A620C6 /* libpjsua-arm64-apple-darwin_ios.a */; };
 		20E9C9522869614500A620C6 /* libpjsua2-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20E9C9462869614500A620C6 /* libpjsua2-arm64-apple-darwin_ios.a */; };
 		20E9C9532869614500A620C6 /* libpjmedia-codec-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20E9C9472869614500A620C6 /* libpjmedia-codec-arm64-apple-darwin_ios.a */; };
@@ -31,23 +28,6 @@
 		20E9C95B2869614500A620C6 /* libpjsip-simple-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20E9C94F2869614500A620C6 /* libpjsip-simple-arm64-apple-darwin_ios.a */; };
 		20E9C95C2869614500A620C6 /* libpjsip-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20E9C9502869614500A620C6 /* libpjsip-arm64-apple-darwin_ios.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		20C6893A2864775300B57794 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 20C6891B2864775200B57794 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 20C689222864775200B57794;
-			remoteInfo = CallKitWithPjsipDemo;
-		};
-		20C689442864775300B57794 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 20C6891B2864775200B57794 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 20C689222864775200B57794;
-			remoteInfo = CallKitWithPjsipDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		20C3FD602869537B00F8637A /* libyuv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libyuv.a; sourceTree = "<group>"; };
@@ -80,12 +60,7 @@
 		20C6892F2864775300B57794 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20C689322864775300B57794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20C689342864775300B57794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20C6893D2864775300B57794 /* CallKitWithPjsipDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallKitWithPjsipDemoTests.swift; sourceTree = "<group>"; };
-		20C689472864775300B57794 /* CallKitWithPjsipDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallKitWithPjsipDemoUITests.swift; sourceTree = "<group>"; };
-		20C689492864775300B57794 /* CallKitWithPjsipDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallKitWithPjsipDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		20E9C92C28695F3900A620C6 /* CallKitWithPjsipDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CallKitWithPjsipDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		20E9C92D28695F3900A620C6 /* CallKitWithPjsipDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CallKitWithPjsipDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		20E9C92E28695F3900A620C6 /* CallKitWithPjsipDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CallKitWithPjsipDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20E9C92C28695F3900A620C6 /* CallKitWithPjsipDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = CallKitWithPjsipDemo.app; path = "/Users/genusysinc/Desktop/Mobarak Projects/CallKitWithPjsip/CallKitWithPjsipDemo/build/Debug-iphoneos/CallKitWithPjsipDemo.app"; sourceTree = "<absolute>"; };
 		20E9C9312869613000A620C6 /* libpjlib-util.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libpjlib-util.a"; sourceTree = "<group>"; };
 		20E9C9322869613000A620C6 /* libpjsip-ua.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libpjsip-ua.a"; sourceTree = "<group>"; };
 		20E9C9332869613000A620C6 /* libyuv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libyuv.a; sourceTree = "<group>"; };
@@ -140,20 +115,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		20C689362864775300B57794 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		20C689402864775300B57794 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -197,11 +158,6 @@
 			children = (
 				20C3FD5F2869537A00F8637A /* Libraries */,
 				20C689252864775200B57794 /* CallKitWithPjsipDemo */,
-				20C6893C2864775300B57794 /* CallKitWithPjsipDemoTests */,
-				20C689462864775300B57794 /* CallKitWithPjsipDemoUITests */,
-				20E9C92C28695F3900A620C6 /* CallKitWithPjsipDemo.app */,
-				20E9C92D28695F3900A620C6 /* CallKitWithPjsipDemoTests.xctest */,
-				20E9C92E28695F3900A620C6 /* CallKitWithPjsipDemoUITests.xctest */,
 				20E9C92F2869613000A620C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -221,23 +177,6 @@
 				20C3FDA328695BCC00F8637A /* CallKitWithPjsipDemo-Bridging-Header.h */,
 			);
 			path = CallKitWithPjsipDemo;
-			sourceTree = "<group>";
-		};
-		20C6893C2864775300B57794 /* CallKitWithPjsipDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				20C6893D2864775300B57794 /* CallKitWithPjsipDemoTests.swift */,
-			);
-			path = CallKitWithPjsipDemoTests;
-			sourceTree = "<group>";
-		};
-		20C689462864775300B57794 /* CallKitWithPjsipDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				20C689472864775300B57794 /* CallKitWithPjsipDemoUITests.swift */,
-				20C689492864775300B57794 /* CallKitWithPjsipDemoUITestsLaunchTests.swift */,
-			);
-			path = CallKitWithPjsipDemoUITests;
 			sourceTree = "<group>";
 		};
 		20E9C92F2869613000A620C6 /* Frameworks */ = {
@@ -307,42 +246,6 @@
 			productReference = 20E9C92C28695F3900A620C6 /* CallKitWithPjsipDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		20C689382864775300B57794 /* CallKitWithPjsipDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 20C689502864775300B57794 /* Build configuration list for PBXNativeTarget "CallKitWithPjsipDemoTests" */;
-			buildPhases = (
-				20C689352864775300B57794 /* Sources */,
-				20C689362864775300B57794 /* Frameworks */,
-				20C689372864775300B57794 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				20C6893B2864775300B57794 /* PBXTargetDependency */,
-			);
-			name = CallKitWithPjsipDemoTests;
-			productName = CallKitWithPjsipDemoTests;
-			productReference = 20E9C92D28695F3900A620C6 /* CallKitWithPjsipDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		20C689422864775300B57794 /* CallKitWithPjsipDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 20C689532864775300B57794 /* Build configuration list for PBXNativeTarget "CallKitWithPjsipDemoUITests" */;
-			buildPhases = (
-				20C6893F2864775300B57794 /* Sources */,
-				20C689402864775300B57794 /* Frameworks */,
-				20C689412864775300B57794 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				20C689452864775300B57794 /* PBXTargetDependency */,
-			);
-			name = CallKitWithPjsipDemoUITests;
-			productName = CallKitWithPjsipDemoUITests;
-			productReference = 20E9C92E28695F3900A620C6 /* CallKitWithPjsipDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -356,14 +259,6 @@
 					20C689222864775200B57794 = {
 						CreatedOnToolsVersion = 13.3.1;
 						LastSwiftMigration = 1330;
-					};
-					20C689382864775300B57794 = {
-						CreatedOnToolsVersion = 13.3.1;
-						TestTargetID = 20C689222864775200B57794;
-					};
-					20C689422864775300B57794 = {
-						CreatedOnToolsVersion = 13.3.1;
-						TestTargetID = 20C689222864775200B57794;
 					};
 				};
 			};
@@ -381,8 +276,6 @@
 			projectRoot = "";
 			targets = (
 				20C689222864775200B57794 /* CallKitWithPjsipDemo */,
-				20C689382864775300B57794 /* CallKitWithPjsipDemoTests */,
-				20C689422864775300B57794 /* CallKitWithPjsipDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -395,20 +288,6 @@
 				20C689332864775300B57794 /* LaunchScreen.storyboard in Resources */,
 				20C689302864775300B57794 /* Assets.xcassets in Resources */,
 				20C6892E2864775200B57794 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		20C689372864775300B57794 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		20C689412864775300B57794 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,37 +306,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		20C689352864775300B57794 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				20C6893E2864775300B57794 /* CallKitWithPjsipDemoTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		20C6893F2864775300B57794 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				20C689482864775300B57794 /* CallKitWithPjsipDemoUITests.swift in Sources */,
-				20C6894A2864775300B57794 /* CallKitWithPjsipDemoUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		20C6893B2864775300B57794 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 20C689222864775200B57794 /* CallKitWithPjsipDemo */;
-			targetProxy = 20C6893A2864775300B57794 /* PBXContainerItemProxy */;
-		};
-		20C689452864775300B57794 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 20C689222864775200B57794 /* CallKitWithPjsipDemo */;
-			targetProxy = 20C689442864775300B57794 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		20C6892C2864775200B57794 /* Main.storyboard */ = {
@@ -660,78 +509,6 @@
 			};
 			name = Release;
 		};
-		20C689512864775300B57794 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cse.mobarak.CallKitWithPjsipDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CallKitWithPjsipDemo.app/CallKitWithPjsipDemo";
-			};
-			name = Debug;
-		};
-		20C689522864775300B57794 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cse.mobarak.CallKitWithPjsipDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CallKitWithPjsipDemo.app/CallKitWithPjsipDemo";
-			};
-			name = Release;
-		};
-		20C689542864775300B57794 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cse.mobarak.CallKitWithPjsipDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CallKitWithPjsipDemo;
-			};
-			name = Debug;
-		};
-		20C689552864775300B57794 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cse.mobarak.CallKitWithPjsipDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CallKitWithPjsipDemo;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -749,24 +526,6 @@
 			buildConfigurations = (
 				20C6894E2864775300B57794 /* Debug */,
 				20C6894F2864775300B57794 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		20C689502864775300B57794 /* Build configuration list for PBXNativeTarget "CallKitWithPjsipDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				20C689512864775300B57794 /* Debug */,
-				20C689522864775300B57794 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		20C689532864775300B57794 /* Build configuration list for PBXNativeTarget "CallKitWithPjsipDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				20C689542864775300B57794 /* Debug */,
-				20C689552864775300B57794 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
